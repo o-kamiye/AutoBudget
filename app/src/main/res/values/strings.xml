@@ -4,4 +4,5 @@
     <string name="app_logo">Application Logo</string>
     <string name="app_catch_phrase">You set the values...AutoBudget does the rest...</string>
     <string name="welcome_screen_button">Proceed</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
 </resources>
