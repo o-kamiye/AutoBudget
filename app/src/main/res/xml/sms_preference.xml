@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:contentDescription="Set bank alert sender"
+        android:dialogTitle="Enter Bank 1 SMS Sender"
+        android:icon="@drawable/ic_message_black"
+        android:inputType="text"
+        android:key="@string/bank_1"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="FidelitySMS"
+        android:title="Bank Alert Title 1" />
+
+    <EditTextPreference
+        android:contentDescription="Set bank alert sender"
+        android:dialogTitle="Enter Bank 2 SMS Sender"
+        android:icon="@drawable/ic_message_black"
+        android:inputType="text"
+        android:key="@string/bank_2"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Gtbank"
+        android:title="Bank Alert Title 2" />
+
+    <EditTextPreference
+        android:contentDescription="Set bank alert sender"
+        android:dialogTitle="Enter Bank 3 SMS Sender"
+        android:icon="@drawable/ic_message_black"
+        android:inputType="text"
+        android:key="@string/bank_3"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="SterlingBank"
+        android:title="Bank Alert Title 3" />
+
+
+</PreferenceScreen>
